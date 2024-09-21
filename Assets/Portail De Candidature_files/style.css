@@ -1,0 +1,163 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Chivo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+/* Header */
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%; 
+}
+.container .logo{
+  padding: 25px;
+  width: 200px;
+  height: 100px;
+}
+.container ul {
+  display: flex;
+  list-style: none;
+  padding: 30px;
+}
+
+.container ul li {
+  font-size: 16px;
+  padding: 10px;
+  margin-right: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+.container ul li a {
+  text-decoration: none;
+  color: #707070;
+}
+
+.container ul li a:hover {
+  color: #313265;
+  text-decoration: underline;
+  text-underline-offset: 6px;
+}
+
+/* Acceuill */
+.Acceuil {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 180px;
+}
+
+.Acceuil h1 {
+  text-align: center;
+  font-family: "Chivo", sans-serif;
+  font-size: 20px;
+  margin-left: 35px;
+  padding: 10px;
+}
+.Acceuil h1 .span {
+  color: #313265;
+  text-decoration: none;
+}
+
+.Acceuil .btn {
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  background-color: rgb(255, 74, 74);
+  border-radius: 10px;
+  display: inline-block;
+  margin-top: 10px;
+  transition: transform 0.3s ease;
+}
+
+.Acceuil .btn:hover {
+  transform: scale(1.1);
+}
+
+/* @media screen and (max-width: 768px) {
+    .Acceuil {
+      padding: 100px;
+    }
+  
+    .Acceuil h1 {
+      font-size: 18px;
+      padding: 10px;
+    }
+  
+    .Acceuil a {
+      font-size: 12px;
+      padding: 8px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .Acceuil {
+      padding: 70px;
+    }
+  
+    .Acceuil h1 {
+      font-size: 16px;
+      padding: 5px;
+    }
+  
+    .Acceuil a {
+      font-size: 20px;
+      padding: 6px;
+    }
+  } */
+
+
+/* Presentation */
+.Presentation{
+  padding: 10px;
+  background-color: rgba(135,135,135,0.1);
+}
+.Presentation .titre{
+  text-align: center;
+  font-family: "Chivo", sans-serif;
+  color: #313265;
+  font-size: 40px;
+}
+.Presentation p{
+  text-align: justify;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  padding: 30px;
+}
+
+/* Processus */
+.Processus{
+  padding: 10px;
+}
+.Processus .titre{
+  text-align: center;
+  font-family: "Chivo", sans-serif;
+  color: #313265;
+  font-size: 40px;
+}
+.Processus p{
+  text-align: justify;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  padding: 30px;
+}
+.Processus p .lien{
+  text-decoration: none;
+  padding: 5px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  background-color: rgb(255, 74, 74);
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 10px;
+  transition: transform 0.3s ease;
+
+}
+.Processus p .lien:hover{
+  transform: scale(1.1);
+
+}

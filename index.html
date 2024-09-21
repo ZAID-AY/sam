@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="Assets/sam.png" type="image/png" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="Styles/styling.css" />
+    <!-- Reset File -->
+    <link rel="stylesheet" href="Styles/reset.css" />
+    <!-- Icons -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!-- Css Framework -->
+    <!-- <link rel="stylesheet" href="Styles/semantic.css"> -->
+    <title>Portail De Candidature</title>
+  </head>
+  <body>
+    <header class="container">
+      <img src="Assets/sam.png" alt="" class="logo" />
+      <div>
+        <!-- Menu -->
+        <ul>
+          <li><a href="#Acceuill">Acceuill</a></li>
+          <li><a href="#Presentation">Presentation</a></li>
+          <li><a href="#Processus">Processus</a></li>
+          <li><a href="candidat.php">Formulaire de candidature</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="login.php">Connexion</a></li>
+        </ul>
+      </div>
+    </header>
+    <!-- Acceuil -->
+    <section id="Acceuil" class="container">
+      <div class="Acceuil">
+        <h1>
+          "Rejoignez le ciel de l'excellence aéronautique au Maroc avec
+          <a
+            class="span"
+            href="https://www.aviagroup-industries.com/aerostructures/societe/structural-aerospace-morocco/"
+            target="_blank"
+            >Structural Aerospace Morocco!</a
+          >"
+        </h1>
+        <a href="#Processus" class="btn">Processus de postulation</a>
+        <a href="candidat.html" class="btn">Formulaire de candidature</a>
+      </div>
+    </section>
+    <!-- Presentation -->
+    <section id="Presentation" class="container">
+      <div class="Presentation">
+        <h1 class="titre">Presentation</h1>
+        <p>
+          Structural Aerospace Morocco, société d’Aviagroup Industries, réalise
+          des pièces critiques et des sous-ensembles d’aérostructures
+          métalliques de haute technologie, conformes aux exigences de qualité
+          et de sécurité des avions et hélicoptères, civils et militaires.
+          L’expertise de la société, ses performances et son savoir-faire
+          reconnu lui permettent d’occuper une position de premier plan dans le
+          secteur aéronautique. Pour remplir ses objectifs de performance
+          industrielle, la société s’appuie sur près de 300 collaborateurs
+          qualifiés sur son site de Casablanca, au Maroc, qui partagent une
+          ambition commune : relever les défis technologiques de demain afin
+          d’être un acteur incontournable du secteur aéronautique.
+        </p>
+      </div>
+    </section>
+
+    <!-- Processus -->
+    <section id="Processus" class="container">
+      <div class="Processus">
+        <h1 class="titre">Processus</h1>
+        <p>
+          Lorsque vous souhaitez postuler à notre entreprise, il est important
+          de vous assurer d'avoir les documents nécessaires à portée de main.
+          Cette vérification préalable garantit que vous serez prêt(e) à fournir
+          toutes les informations requises lors de votre demande. Les documents
+          nécessaires peuvent varier en fonction du contexte spécifique de la
+          demande, mais ils peuvent inclure des éléments tels que :<br /><br />
+          1) CV <br /><br />
+          2) Lettre de motivation <br /><br />
+          3) Demande de stage <br /><br />
+          Une fois que vous avez rassemblé tous les documents nécessaires
+          mentionnés précédemment, vous êtes prêt(e) à passer à l'étape suivante
+          de votre demande. Les instructions suivantes vous guideront à travers
+          le processus de candidature spécifique à l'opportunité à laquelle vous
+          postulez.<br /><br />
+          1) Remplissez le formulaire de candidature en cliquant sur le lien
+          suivant <br /><a href="candidat.php" class="lien"
+            >Formulaire de candidature</a
+          ><br /><br />
+          2) Vous allez recevoir un email pour votre statut au maximum une
+          semaine apres votre postulation
+          <br />
+        </p>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="container2" id="contact">
+      <!-- Contact -->
+      <div class="contact">
+        <h1 class="titre">Contactez-Nous</h1>
+        <form
+          action="https://formspree.io/f/mdovqeal"
+          class="form"
+          method="post"
+          id="my-form"
+        >
+          <ion-icon name="accessibility-outline"></ion-icon
+          ><label for="Nom">Nom Complet</label>
+          <input
+            type="text"
+            name="nom"
+            placeholder="Nom et prenom"
+            required
+          /><br />
+          <ion-icon name="call-outline"></ion-icon
+          ><label for="telephone">Telephone</label>
+          <input
+            type="text"
+            name="telephone"
+            placeholder="Telephone"
+            required
+          /><br />
+          <ion-icon name="mail-outline"></ion-icon
+          ><label for="email">Email</label>
+          <input type="email" name="email" placeholder="Email" required />
+          <textarea type="text" name="message" required placeholder="Entrez votre message"></textarea><br />
+          <button class="envoyer" id="submit-button" type="submit">
+            <ion-icon name="send"></ion-icon>Envoyer
+          </button>
+        </form>
+        
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer">
+        <div class="row">
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-youtube"></i></a>
+          <a href="https://www.linkedin.com/company/structural-aerospace-morocco/"><i class="fa fa-linkedin"></i></a>
+        </div>
+
+        <div class="row">
+          <ul>
+            <li><a href="index.html">Acceuill</a></li>
+            <li><a href="#Presentation">Presentation</a></li>
+            <li><a href="#Processus">Processus</a></li>
+            <li><a href="candidat.php">Formulaire de candidature</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="login.php">Connexion</a></li>
+          </ul>
+        </div>
+
+        <div class="row">
+          Structural Aerospace Morocco © 2023 SAM - All rights reserved ||
+          Designed By: Ayoub ZAID
+        </div>
+      </div>
+    </footer>
+    <!-- Scripts -->
+    <script>
+      // Confirmation d'envoi
+      const form = document.getElementById('my-form');
+        const submitButton = document.getElementById('submit-button');
+      
+        form.addEventListener('submit', (event) => {
+          event.preventDefault();
+          submitButton.disabled = true;
+      
+          fetch(event.target.action, {
+            method: 'POST',
+            headers: {
+              'Accept': 'application/json'
+            },
+            body: new FormData(event.target)
+          })
+          .then(response => response.json())
+          .then(data => {
+            alert('Merci pour votre message!');
+            form.reset();
+            submitButton.disabled = false;
+          })
+          .catch(error => {
+            alert('Erreur d"envoie du message!');
+            submitButton.disabled = false;
+          });
+        });
+    </script>
+  </body>
+</html>
